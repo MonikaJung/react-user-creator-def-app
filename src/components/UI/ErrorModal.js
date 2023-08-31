@@ -34,7 +34,7 @@ const ErrorModal = (props) => {
       )}
       {ReactDOM.createPortal(
         <ModalOverlay
-          tittle={props.title}
+          title={props.title}
           message={props.message}
           onConfirm={props.onConfirm}
         />,
